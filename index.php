@@ -18,7 +18,7 @@
 		echo $insertattend;
 	}
 ?>
-<div class='alert alert-danger' style="display: none;"><strong>Error !</strong>ID Missing !</div>
+<div class='alert alert-danger' style="display: none;"><strong>Error !</strong>No Option Selected !</div>
 		<div class="card">
 			<div class="card-header">
 				<h2>
