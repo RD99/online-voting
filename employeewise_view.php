@@ -13,7 +13,6 @@
 		<div class="card">
 			<div class="card-header">
 				<h2>
-					<a class="btn btn-success" href="add.php">Add Employee</a>
 					<a class="btn btn-dark float-right" href="index.php" style="margin-left:10px">Vote</a>
 				</h2>
 			</div>

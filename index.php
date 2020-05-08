@@ -22,7 +22,6 @@
 		<div class="card">
 			<div class="card-header">
 				<h2>
-					<a class="btn btn-success" href="add.php">Add Employee</a>
 					<a class="btn btn-info float-right" href="employeewise_view.php" style="margin-left:10px">View Results</a>
 				</h2>
 			</div>
