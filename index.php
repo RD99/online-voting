@@ -18,7 +18,7 @@
 		echo $insertattend;
 	}
 ?>
-<div class='alert alert-danger' style="display: none;"><strong>Error !</strong> Employee ID Missing !</div>
+<div class='alert alert-danger' style="display: none;"><strong>Error !</strong> ID Missing !</div>
 		<div class="card">
 			<div class="card-header">
 				<h2>
@@ -35,10 +35,10 @@
 				<form action="" method="post">
 					<table class="table table-striped">
 						<tr>
-							<th width="25%">S/L</th>
-							<th width="25%">Employee Name</th>
-							<th width="25%">Employee ID</th>
-							<th width="25%">Attendance</th>
+							<th width="25%">Serial Number</th>
+							<th width="25%">Candidate Name</th>
+							<th width="25%">Candidate ID</th>
+							<th width="25%">Vote</th>
 						</tr>
 <?php 
 	$getemployee = $emp->getEmployees();
@@ -52,8 +52,7 @@
 							<td><?php echo $value['name']; ?></td>
 							<td><?php echo $value['roll']; ?></td>
 							<td>
-								<input type="radio" name="radio" value="Present">P
-								<!-- <input type="radio" name="attend[<?php echo $value['roll']; ?>]" value="Absent">A -->
+								<input type="radio" name="radio" value="Vote">Vote for Candidate
 							</td>
 						</tr>
 <?php } } ?>

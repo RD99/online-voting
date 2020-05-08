@@ -9,7 +9,7 @@
 				</script>
 				<span>
 				--->
-				By Jainam Doshi & Riya Jakhariya
+				By Jainam Doshi, Rudresh Dongre & Nirali Dodhia
 				</span>
 			</h3>
 		</div>
