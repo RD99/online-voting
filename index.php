@@ -18,11 +18,11 @@
 		echo $insertattend;
 	}
 ?>
-<div class='alert alert-danger' style="display: none;"><strong>Error !</strong> ID Missing !</div>
+<div class='alert alert-danger' style="display: none;"><strong>Error !</strong>ID Missing !</div>
 		<div class="card">
 			<div class="card-header">
 				<h2>
-					<a class="btn btn-info float-right" href="employeewise_view.php" style="margin-left:10px">View Results</a>
+					<a class="btn btn-info float-right" href="results.php" style="margin-left:10px">View Results</a>
 				</h2>
 			</div>
 

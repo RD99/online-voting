@@ -36,7 +36,7 @@
 						--->
 						</tr>
 <?php 
-	$getdate = $emp->getEmployeeAttendanceCount();
+	$getdate = $emp->getVoteCount();
 	if ($getdate) {
 		$i = 0;
 		while ($value = $getdate->fetch_assoc()) {
@@ -44,9 +44,9 @@
 ?>
 						<tr>
 							<td><?php echo $i; ?></td>
-							<td><?php echo $value['roll']; ?></td>
+							<td><?php echo $value['can_id']; ?></td>
 							<td><?php echo $value['name']; ?></td>
-							<td><?php echo $value['count_p']."/".$value['count_t']; ?></td>
+							<td><?php echo $value['votes']; ?></td>
 						</tr>
 <?php } } ?>
 					</table>
