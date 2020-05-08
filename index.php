@@ -48,7 +48,7 @@
 						<tr>
 							<td><?php echo $i; ?></td>
 							<td><?php echo $value['name']; ?></td>
-							<td><?php echo $value['roll']; ?></td>
+							<td><?php echo $value['can_id']; ?></td>
 							<td>
 								<input type="radio" name="radio" value="Vote">Vote for Candidate
 							</td>
