@@ -27,5 +27,9 @@ class Employee{
 		$result = $this->db->select($query);
 		return $result;
   }
+  public function insertAttendance($attend = array()){
+	$query = "INSERT into votes(uname,can_id) VALUES('Rudresh',3)";
+		$result = $this->db->select($query);
+		return $result;
 
 }
