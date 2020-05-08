@@ -93,7 +93,7 @@
           <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
                 <div class="heading">
-                <a href="./admin.html" class="btn btn-link"><< view past election</a>
+                <a href="./admin.php" class="btn btn-link"><< view past election</a>
                   <h1>Student Council Election 2020</h1>
                 </div>
             </div>
@@ -816,7 +816,7 @@
     $("#table-member").find('tr[data-id]').on('click', function () {
     //let modalDetails = '<span class="label-title">Project Manager</span>';
     //do all your operation populate the modal and open the modal now. DOnt need to use show event of modal again
-    //$('#modalDetails').html($(modalDetails));
+    //$('#modalDetails').php($(modalDetails));
     $('#viewModal').modal('show');
     });
     });
@@ -875,7 +875,7 @@
     children.slice(0, perPage).show();
     
     pager.find('li .page_link').click(function(){
-        var clickedPage = $(this).html().valueOf()-1;
+        var clickedPage = $(this).php().valueOf()-1;
         goTo(clickedPage,perPage);
         return false;
     });

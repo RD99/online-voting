@@ -104,10 +104,10 @@
 
 		// Checking templates and inserting
 		if (this._check_template(this.o.templates.leftArrow)) {
-			this.picker.find('.prev').html(this.o.templates.leftArrow);
+			this.picker.find('.prev').php(this.o.templates.leftArrow);
 		}
 		if (this._check_template(this.o.templates.rightArrow)) {
-			this.picker.find('.next').html(this.o.templates.rightArrow);
+			this.picker.find('.next').php(this.o.templates.rightArrow);
 		}
 
 		this._buildEvents();
@@ -831,7 +831,7 @@
         var focused = localDate && localDate.getMonth() === i ? ' focused' : '';
 				html += '<span class="month' + focused + '">' + dates[this.o.language].monthsShort[i++]+'</span>';
 			}
-			this.picker.find('.datepicker-months td').html(html);
+			this.picker.find('.datepicker-months td').php(html);
 		},
 
 		setRange: function(range){
@@ -950,7 +950,7 @@
 				html += '<span class="' + classes.join(' ') + '"' + (tooltip ? ' title="' + tooltip + '"' : '') + '>' + thisYear + '</span>';
 				thisYear += step;
 			}
-			view.find('td').html(html);
+			view.find('td').php(html);
 		},
 
 		fill: function(){

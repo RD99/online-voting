@@ -46,7 +46,7 @@
                   
           
           <div class="col-xs-6">
-            <div class="thumbnail" onclick="window.location='./admin-election.html';">
+            <div class="thumbnail" onclick="window.location='./admin-election.php';">
               <div class="caption">             
                 <div class="heading">
                   <h1>Go to Voting Details</h1>
@@ -59,7 +59,7 @@
              </div>
           </div>
           <div class="col-xs-6">
-            <div class="thumbnail" onclick="window.location='./vote-page.html';">
+            <div class="thumbnail" onclick="window.location='./vote-page.php';">
               <div class="caption">             
                 <div class="heading">
                   <h1>Go to Voting Page</h1>

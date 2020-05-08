@@ -117,9 +117,9 @@
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-            <div class="thumbnail" onclick="window.location='./admin-election.html';">
+            <div class="thumbnail" onclick="window.location='./admin-election.php';">
               <div class="caption">                 
-                <a href="./admin-election.html" class="btn btn-primary  pull-right">View</a>
+                <a href="./admin-election.php" class="btn btn-primary  pull-right">View</a>
                 <div class="heading">
                   <h3>Student Council Election 2020</h3>
                 </div>
@@ -291,7 +291,7 @@
     $("#table-member").find('tr[data-id]').on('click', function () {
     //let modalDetails = '<span class="label-title">Project Manager</span>';
     //do all your operation populate the modal and open the modal now. DOnt need to use show event of modal again
-    //$('#modalDetails').html($(modalDetails));
+    //$('#modalDetails').php($(modalDetails));
     $('#viewModal').modal('show');
     });
     });
@@ -350,7 +350,7 @@
     children.slice(0, perPage).show();
     
     pager.find('li .page_link').click(function(){
-        var clickedPage = $(this).html().valueOf()-1;
+        var clickedPage = $(this).php().valueOf()-1;
         goTo(clickedPage,perPage);
         return false;
     });

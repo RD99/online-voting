@@ -64,9 +64,9 @@
                     <br />
                     <div class="form-group">
                       <div class="col-sm-12 text-center">
-                        <button class="btn btn-xl btn-primary" id="loginBtn1"><a href="vote-page.html">voter</a></button>
-                        <button class="btn btn-xl btn-primary" id="loginBtn2"><a href="admin.html">admin</button>
-                        <button class="btn btn-xl btn-primary" id="loginBtn3"><a href="council.html">council</button>
+                        <button class="btn btn-xl btn-primary" id="loginBtn1"><a href="vote-page.php">voter</a></button>
+                        <button class="btn btn-xl btn-primary" id="loginBtn2"><a href="admin.php">admin</button>
+                        <button class="btn btn-xl btn-primary" id="loginBtn3"><a href="council.php">council</button>
                       </div>
                     </div>
                   </form>
@@ -92,15 +92,15 @@
     <script type="text/javascript">
       document.getElementById("loginBtn1").addEventListener("click", function(event){
   event.preventDefault();
-  window.location.href = "vote-page.html";
+  window.location.href = "vote-page.php";
 });
 document.getElementById("loginBtn2").addEventListener("click", function(event){
   event.preventDefault();
-  window.location.href = "admin.html";
+  window.location.href = "admin.php";
 });
 document.getElementById("loginBtn3").addEventListener("click", function(event){
   event.preventDefault();
-  window.location.href = "council.html";
+  window.location.href = "council.php";
 });
 
     </script>

@@ -47,7 +47,7 @@
                   Voting Start March 27 2020 till April 12 2020 <br /> <br />
                   <a id="btn-viewCandidates" onclick="javascript:viewCandidates();" class="btn btn-xl btn-default">View Candidates</a>
                   <a id="btn-viewResults" onclick="javascript:viewResults();" class="btn btn-xl btn-default">View Results</a>      
-                  <a href="./login.html" class="btn btn-xl btn-primary">Vote Now</a>
+                  <a href="./login.php" class="btn btn-xl btn-primary">Vote Now</a>
                   </p>
             </div>
           </div>
@@ -481,7 +481,7 @@
                                     <h3><strong>Your vote has been cast</strong></h3>
                                     Thank you for voting your next School Councils<br />
                                     stay tune for the result at the end of voting period<br /><br />
-                                    <a href="./welcome-vote.html" type="button" class="btn btn-xl btn-primary">Logout</a>
+                                    <a href="./welcome-vote.php" type="button" class="btn btn-xl btn-primary">Logout</a>
                                 </div>
                             </div>
                         </div>
@@ -867,7 +867,7 @@
     $("#table-member").find('tr[data-id]').on('click', function () {
     //let modalDetails = '<span class="label-title">Project Manager</span>';
     //do all your operation populate the modal and open the modal now. DOnt need to use show event of modal again
-    //$('#modalDetails').html($(modalDetails));
+    //$('#modalDetails').php($(modalDetails));
     $('#viewModal').modal('show');
     });
     });
@@ -926,7 +926,7 @@
     children.slice(0, perPage).show();
     
     pager.find('li .page_link').click(function(){
-        var clickedPage = $(this).html().valueOf()-1;
+        var clickedPage = $(this).php().valueOf()-1;
         goTo(clickedPage,perPage);
         return false;
     });
