@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 08, 2020 at 04:47 PM
+-- Generation Time: May 08, 2020 at 04:52 PM
 -- Server version: 10.4.10-MariaDB
 -- PHP Version: 7.3.12
 
@@ -32,7 +32,9 @@ CREATE TABLE `candidate` (
   `can_id` varchar(20) NOT NULL,
   `name` varchar(20) NOT NULL,
   `branch` varchar(20) NOT NULL,
-  `year` varchar(20) NOT NULL
+  `year` varchar(20) NOT NULL,
+  `position` varchar(20) NOT NULL,
+  `votes` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
