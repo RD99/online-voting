@@ -50,7 +50,7 @@
 							<td><?php echo $value['name']; ?></td>
 							<td><?php echo $value['can_id']; ?></td>
 							<td>
-								<input type="radio" name="radio" value="Vote">Vote for Candidate
+								<input type="radio" name="radio" value=<?php echo $value['can_id']; ?>>Vote for Candidate
 							</td>
 						</tr>
 <?php } } ?>
