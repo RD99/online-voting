@@ -47,10 +47,10 @@
     </div> -->
   </div>
 </div>
-<?php 
+<!-- <?php 
 	error_reporting(0);
 	date_default_timezone_set('Asia/Kolkata');
 	$cur_date = date('Y-m-d');
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$attend = $_POST['attend'];
-		$insertattend = $emp->insertAttendance($attend); } ?>
+		$insertattend = $emp->insertAttendance($attend); } ?> -->
