@@ -1,6 +1,6 @@
 <?php 
 	include "inc/header.php"; 
-	include "classes/Employee.php"; 
+	include "classes/Voting.php"; 
 	$emp = new Employee();
 ?>
 

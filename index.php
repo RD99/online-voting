@@ -1,6 +1,6 @@
 <?php 
 	include "inc/header.php"; 
-	include "classes/Employee.php"; 
+	include "classes/Voting.php"; 
 	$emp = new Employee();
 ?>
 <?php 
@@ -39,7 +39,7 @@
 							<th width="25%">Vote</th>
 						</tr>
 <?php 
-	$getemployee = $emp->getEmployees();
+	$getemployee = $emp->getCandidates();
 	if ($getemployee) {
 		$i = 0;
 		while ($value = $getemployee->fetch_assoc()) {
